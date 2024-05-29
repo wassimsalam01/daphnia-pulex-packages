@@ -1,0 +1,22 @@
+Package: BSgenome.Dpulex.NCBI.ASM2113471v1
+Title: Full genome sequences for Daphnia pulex (NCBI Assembly ASM2113471v1)
+Description: Full genome sequences for Daphnia pulex isolate KAP4 (ASM2113471v1), submitted by Arizona State University (Dec 9, 2021).
+Version: 1.0.0
+Author: Wassim Salam [aut, cre]
+Maintainer: Wassim Salam <wassimsalam49@gmail.com>
+organism: Daphnia pulex
+common_name: Daphnia pulex (common water flea)
+genome: Dpulex
+provider: NCBI
+release_date: 2023-11-01
+source_url: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_021134715.1/
+organism_biocview: Daphnia_pulex
+BSgenomeObjname: Dpulex
+circ_seqs: character(0)
+SrcDataFiles: GCF_021134715.1_ASM2113471v1_genomic.fna.gz
+ from
+ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/021/134/715/GCF_021134715.1_ASM2113471v1/
+seqs_srcdir: ./
+seqfile_name: GCF_021134715.1.2bit
+Suggests: BSgenome
+License: GPL-3
